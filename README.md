@@ -1,0 +1,2 @@
+Included is the Jupyter notebook with all of our work. Everything should run when downloading the file. The resulting CSV files are the validation results in a file that only uses 0/1.
+We encoded the target variable, income as, “>50K” encoded as 1, and “<=50K” encoded as 0. For the categorical variables we used one hot encoding to make them numerical. We ran our preprocess function and reindexed the final validation and results to make the validation output match with the original input file that we are trying to predict on.
